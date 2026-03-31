@@ -17,15 +17,14 @@ A proposta inicial foi fornecida pelo professor, e o principal desafio era **org
 **BANCO CONECTADO**
 
 ![Banco Conectado](./docs/images/bancoconectado.png)
-<img src="./docs/images/bancoconectado.png" alt="Pizza" width="300"/>
+
 
 **API RODANDO**
 ![API rodando](./docs/images/apirodando.png)
-<img src="./docs/images/apirodando.png" alt="Pizza" width="300"/>
+
 
 **PAGINA DO HTML FUNCIONANDO**
 ![Pagina funcionando](./docs/images/pizzaria.png)
-<img src="./docs/images/pizzaria.png" alt="Pizza" width="300"/>
 
 ## 🛠️ Tecnologias Utilizadas
 
