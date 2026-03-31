@@ -20,6 +20,7 @@ A proposta inicial foi fornecida pelo professor, e o principal desafio era **org
 
 
 **API RODANDO**
+
 ![API rodando](./docs/images/apirodando.png)
 
 
@@ -160,9 +161,9 @@ Durante o desenvolvimento, foi possível aprender e aplicar conceitos importante
 
 O projeto teve como foco principal a **organização e correção de código já existente**, transformando-o em uma aplicação funcional e bem estruturada.
 
-// ...existing code...
-{ changed code }
-**O projeto teve muitos erros de funcionalidade e tive muita dificuldade de rodar o código por não ter instalado as dependências corretas; o terminal do VS Code mostrava erros. Utilizei o Gemini como apoio para resolver problemas. Com isso, consegui terminar e rodar o projeto.**
-// ...existing code...
+// 
+
+O projeto teve muitos erros de funcionalidade e tive muita dificuldade de rodar o código por não ter instalado as dependências corretas; o terminal do VS Code mostrava erros. Utilizei o Gemini como apoio para resolver problemas. Com isso, consegui terminar e rodar o projeto.
+
 ---
 
