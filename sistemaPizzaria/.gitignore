@@ -1,0 +1,7 @@
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar arquivos de configuração sensíveis
+.env
+# Ignorar arquivos específicos do SQLite
+pizzaria.db
