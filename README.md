@@ -161,7 +161,9 @@ Durante o desenvolvimento, foi possível aprender e aplicar conceitos importante
 
 O projeto teve como foco principal a **organização e correção de código já existente**, transformando-o em uma aplicação funcional e bem estruturada.
 
-** O projeto teve muitos erros de funcionalidade, e tive muita dificuldade de rodar o codigo, por que eu não tinha instalado as dependencias corretas, o proprio terminal do Vscode ditava o erro. E eu ultilizei o Gemini como apoio para os erros que eu não conseguia resolver. Com essa junção, consegui terminar e rodar o projeto limpo.**
-
+// ...existing code...
+{ changed code }
+**O projeto teve muitos erros de funcionalidade e tive muita dificuldade de rodar o código por não ter instalado as dependências corretas; o terminal do VS Code mostrava erros. Utilizei o Gemini como apoio para resolver problemas. Com isso, consegui terminar e rodar o projeto.**
+// ...existing code...
 ---
 
