@@ -14,6 +14,18 @@ Este projeto consiste em uma API de sistema de pizzaria, desenvolvida com o obje
 A proposta inicial foi fornecida pelo professor, e o principal desafio era **organizar, corrigir e estruturar o código** de forma funcional, limpa e eficiente.
 
 ---
+**BANCO CONECTADO**
+
+![Banco Conectado](./docs/images/bancoconectado.png)
+<img src="./docs/images/bancoconectado.png" alt="Pizza" width="300"/>
+
+**API RODANDO**
+![API rodando](./docs/images/apirodando.png)
+<img src="./docs/images/apirodando.png" alt="Pizza" width="300"/>
+
+**PAGINA DO HTML FUNCIONANDO**
+![Pagina funcionando](./docs/images/pizzaria.png)
+<img src="./docs/images/pizzaria.png" alt="Pizza" width="300"/>
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -149,7 +161,7 @@ Durante o desenvolvimento, foi possível aprender e aplicar conceitos importante
 
 O projeto teve como foco principal a **organização e correção de código já existente**, transformando-o em uma aplicação funcional e bem estruturada.
 
-**projeto teve muitos erros de funcionalidade, e tive muita dificuldade de rodar o codigo, por que eu não tinha instalado as dependencias corretas, e o proprio terminal do Vscode ditava o erro e eu ultilizei o Gemini como apoio para o os erros que eu não conseguia resolver. Com essa junção, consegui terminar e rodar o projeto limpo.**
+** O projeto teve muitos erros de funcionalidade, e tive muita dificuldade de rodar o codigo, por que eu não tinha instalado as dependencias corretas, o proprio terminal do Vscode ditava o erro. E eu ultilizei o Gemini como apoio para os erros que eu não conseguia resolver. Com essa junção, consegui terminar e rodar o projeto limpo.**
 
 ---
 
