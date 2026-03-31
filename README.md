@@ -47,7 +47,7 @@ O frontend em public/ é servido pelo Express (static) e consome a API via requi
 
 **Mapa de relações (quem importa quem)**
 
-index.js
+- index.js
 -> importa: src/routes/index.js, src/database/sqlite.js, dotenv, express, possivelmente middlewares (cors, bodyParser) e configura public/
 src/routes/index.js
 -> importa: controllers/ou diretamente src/models/*.js, src/middlewares/auth.js (para rotas protegidas), express.Router()
