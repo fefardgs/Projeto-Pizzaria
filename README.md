@@ -37,6 +37,26 @@ A proposta inicial foi fornecida pelo professor, e o principal desafio era **org
 * CSS3
 
 ---
+**Como o SQLite é usado (resumo)**
+Existe um arquivo src/database/sqlite.js que cria/abre a conexão com o arquivo local pizzaria.db (usando sqlite3 ou sql.js) e exporta a conexão ou helpers (ex.: db, run, get, all).
+Os modelos em src/models/*.js (Cliente, Pizza, Pedido, Usuario) importam esse sqlite.js e executam queries SQL para criar tabelas, inserir, atualizar e buscar dados.
+O seed.js também usa sqlite.js (ou executa diretamente queries) para popular o banco com dados iniciais.
+index.js inicializa o servidor Express, carrega variáveis de ambiente (.env), registra as rotas e provavelmente garante que o banco esteja pronto antes de escutar a porta.
+O frontend em public/ é servido pelo Express (static) e consome a API via requisições HTTP.
+
+**Mapa de relações (quem importa quem)**
+index.js
+-> importa: src/routes/index.js, src/database/sqlite.js, dotenv, express, possivelmente middlewares (cors, bodyParser) e configura public/
+src/routes/index.js
+-> importa: controllers/ou diretamente src/models/*.js, src/middlewares/auth.js (para rotas protegidas), express.Router()
+src/models/Cliente.js, Pizza.js, Pedido.js, Usuario.js
+-> importam: src/database/sqlite.js (para executar queries)
+src/middlewares/auth.js
+-> importa: jsonwebtoken (jwt) — usado nas rotas quando necessário (ex.: rotas de criar/listar recursos protegidos)
+seed.js
+-> importa: src/database/sqlite.js ou usa sqlite diretamente para criar tabelas e inserir dados
+public/*
+-> servido por index.js; não importa JS do backend diretamente
 
 ## 📁 Estrutura de Pastas
 
